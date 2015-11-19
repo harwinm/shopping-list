@@ -1,0 +1,124 @@
+/* CSS reset 
+	(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+
+/* General styles */
+body {
+	background-color:#cf2a27;
+}
+
+/* Header styles 
+	(all the styles inside the < header > or < nav > tags) 
+*/
+h1 {
+	color: #cccccc;
+    font-family: 'Permanent Marker', cursive;
+	font-size: 3em;
+    text-align:center;
+}
+h2 {
+    color: #dddddd;
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Content styles 
+	(all the styles inside the < sections > or < aside > tags)
+*/
+
+ul {
+    list-style-position: inside;
+}
+.tasks {
+    border-style: double;
+    border-width: 5px; 
+    margin: 50px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+li {
+    font-family: 'Permanent Marker', cursive;
+	font-size: 1em;
+    list-style: none;
+    border-style: none;
+    border-width: 2px;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+}
+.input-box {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    margin: 5px;
+    padding: 1rem 1.5rem;
+}
+.addText{
+    font-family: 'Marck Script', cursive;
+    list-style-type: square;
+    text-align: center;    
+	background-color: #cf2a27;
+    width: 20%;
+    height: 2rem;
+    color: #dddddd;
+    font-size: 1.75rem;
+    line-height: 1rem;
+}
+.addButton {
+    font-family: 'Marck Script', cursive;
+    list-style-type: square;
+	font-size: 2.5rem;
+    text-align: center;    
+	background-color: #cf2a27;
+    width: 5%;
+    height: 2rem;
+    color: #dddddd;
+    font-size: 2.5rem;
+    line-height: 1rem;
+}
+.button-clear {
+    font-family: 'Marck Script', cursive;
+    width: 9.688 rem;
+	background-color: #cf2a27;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: #dddddd;
+    font-size: 1.5rem;
+}
+.clear {
+    text-align: center;
+}
+.delete {
+    float: right;
+}
+.checkbox {
+    margin-right: .5rem;
+    color: red;
+    cursor: pointer;
+}
+.cross-out {
+    background-color: red;
+    text-decoration: underline;
+    color: #dddddd;
+}
+/* Footer styles 
+	(all the styles inside the < footer > tag)
+*/
+
+
+/* Responsive styles 
+	(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+*/

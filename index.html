@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Shopping List</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Marck+Script' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/shopping-list-app.js"></script>
+</head>
+
+<body>
+    <header>
+    <h1> Shopping List </h1>
+    <h2> Helping you remember all you need </h2>
+    </header>
+<section>
+  <div class="tasks">
+   <div class="input-box"> 
+        <input type="text" name="item" id="addItem" class="addText" autocomplete="off" placeholder="Add An Item" required/>
+        <input type="submit" id="submitItem" class="addButton" name="submit" value="+"/>
+    </div>  
+       <ul id="list">
+           <li> <button class="checkbox">&#x2713;</button>Milk <button class="delete" id="remove-button">x</button> </li> 
+           <li> <button class="checkbox">&#x2713;</button>Orange Juice <button class="delete" id="remove-button">x</button> </li>
+           <li> <button class="checkbox">&#x2713;</button>Apple <button class="delete" id="remove-button">x</button> </li>
+           <li> <button class="checkbox">&#x2713;</button>Cereal <button class="delete" id="remove-button">x</button> </li>
+           <li> <button class="checkbox">&#x2713;</button>Cheese <button class="delete" id="remove-button">x</button> </li>      
+       </ul> 
+    <div class="clear"> 
+        <input type="submit" id="clearList" class="button-clear" name="clear" value="Clear List"/>
+    </div>
+</section>
+</body>
+</html>
